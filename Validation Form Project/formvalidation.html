@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+
+      <link rel="stylesheet" href="style2.css">
+    
+   
+
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <div class="container">
+        <form   id="varun">
+            <div id="class-container">
+                <label for="name">NAME:</label>
+                <input type="text" name="name" id="name"    minlength="5" required>
+            </div>
+            <div>
+                <label for="email">EMAIL:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="mobile">MOBILE NO:</label>
+                <input type="number" id="mobile" name="mobile" required>
+            </div>
+
+            <div>
+                <label for="password">PASSWORD:</label>
+                <input type="password"  id="password" name="password" >
+                
+            </div>
+            <div>
+                <label for="confirm">CONFIRM PASSWORD:</label>
+                <input type="password" id="confirm" name="confirm password" required>
+            </div>
+            <div>
+                <input type="submit" name="submit" id="submit"    value="SEND MESSAGE">
+                <small>please click the submit button to fill the review</small>
+            </div>
+        </form>
+        </div>
+
+       <script src="script2.js"></script>
+</body>
+</html>
